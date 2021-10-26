@@ -109,8 +109,7 @@ class CalculatorV3 {
             absOf = scanner.nextBoolean();
             if (absOf == true)
             {
-                operationResult = Math.abs(varA + (char) operatorAB + varB);
-                System.out.println(Math.abs(varA + (char) operatorAB + varB));
+                operationResult = Math.abs(varA + operatorAB + varB);
             }
             else if (absOf == false)
             {
